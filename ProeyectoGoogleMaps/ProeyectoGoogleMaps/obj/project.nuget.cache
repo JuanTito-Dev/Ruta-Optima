@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rm2nKR3ykvc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\OneDrive\\Escritorio\\Gihub-Dev\\Ruta-Optima\\ProeyectoGoogleMaps\\ProeyectoGoogleMaps\\ProeyectoGoogleMaps.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\9.0.3\\microsoft.aspnetcore.connections.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\9.0.3\\microsoft.aspnetcore.http.connections.client.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\9.0.3\\microsoft.aspnetcore.http.connections.common.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\9.0.3\\microsoft.aspnetcore.signalr.client.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\9.0.3\\microsoft.aspnetcore.signalr.client.core.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\9.0.3\\microsoft.aspnetcore.signalr.common.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\9.0.3\\microsoft.aspnetcore.signalr.protocols.json.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.3\\microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.features\\9.0.3\\microsoft.extensions.features.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.logging\\9.0.3\\microsoft.extensions.logging.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.3\\microsoft.extensions.logging.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.options\\9.0.3\\microsoft.extensions.options.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.3\\microsoft.extensions.primitives.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.net.serversentevents\\9.0.3\\system.net.serversentevents.9.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.threading.channels\\9.0.3\\system.threading.channels.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

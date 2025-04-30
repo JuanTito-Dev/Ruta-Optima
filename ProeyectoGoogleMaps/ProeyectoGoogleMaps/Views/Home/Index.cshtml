@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Pagina Inicio";
+}
+@model ProeyectoGoogleMaps.Models.Restricciones
+
+<div class="d-flex" style="height: 90vh">
+    <div class="Imagen">
+    </div>
+    <div class="" style="width:100rem">
+        <h1 class="text-center bg-primary w-75 text-white rounded-top" style="margin:5rem auto 3rem auto">Restricciones</h1>
+
+        <div class="d-flex justify-content-start container flex-column align-items-center bg-white w-75 m-auto rounded-bottom p-4">
+            <p style="margin-bottom: 2rem" class="text-info fs-4">Llena los campos para continuar </p>
+            <form asp-action="Index" class="w-75" >
+                <div class="mb-3 d-flex flex-column align-items-md-start">
+                    <label class="form-label fs-6 text-dark" asp-for="NumeroPasajeros">Cantidad total de pasajeros</label>
+                    <input class="form-control" type="number" class="form-control" asp-for="NumeroPasajeros">
+                    <span class="text-warning" asp-validation-for="NumeroPasajeros"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fs-6 text-dark" asp-for="HoraFinal">Definir tiempo de espera</label>
+                    <input class="form-control" type="datetime-local" class="form-control" asp-for="HoraFinal" required>
+                    <span class="text-warning" asp-validation-for="HoraFinal"></span>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-success">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Mapa";
+    var apikey = ViewBag.Key;
+}
+<div class="d-flex " style="height: 90vh">
+    <div class="Imagen2" style="width: 25rem">
+        <div class="Imagen-Contenido d-flex flex-column">
+            <h2 class="text-center text-success fw-bold" style="margin-top:2rem">Acciones</h2>
+            <button id="EnviarDatos" onclick="EnviarUbicacion()" class="btn btn-primary w-75 fw-bold" style="margin: 1rem auto 0 auto">Enviar</button>
+            <button id="BotonCalcular" onclick="CalcularRuta()" class="btn btn-success w-75 fw-bold " style=" margin: 1rem auto 0 auto">Calcular ruta</button>
+            
+            <div id="Datos_viaje" class="d-flex flex-column w-75" style="height:auto; margin: 2rem auto">
+                <p class="fw-bold text-info">Tiempo de viaje: <span class="fw-normal text-white" id="Dato_tiempo"></span></p>
+                <p class="fw-bold text-info">Distancia de viaje: <span class="fw-normal text-white" id="Dato_distancia"></span></p>
+            </div>
+            <button id="Boton-recoger" class="btn btn-warning w-75 fw-bold" style="display: none; width:100%; margin:1rem auto 0 auto"></button>
+            
+            <div id="Div_Historial" style="display:none; margin:1rem auto 0 auto; width:100%" class="w-75 fw-bold">
+                <form asp-controller="Home" asp-action="Historial">
+                    <button id="terminar viaje" class="btn btn-danger w-100" type="submit">Terminar viaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="Map" class="Mapa"></div>
+</div>
+
+
+
+@section Scripts{
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=@apikey&callback=ConstruirMapa&libraries=marker" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+    <script src="~/js/Mapa.js"></script>
+
+}
