@@ -1,0 +1,19 @@
+Licencia de Uso Restringido
+
+Este documento establece los términos y condiciones bajo los cuales se permite el uso, modificación y distribución del proyecto Sistema de contactos.
+
+Copyright (c) 2025 Juan Jose Tito Escobar. Todos los derechos reservados.
+
+Se concede permiso para ver y usar este proyecto con fines personales o educativos, bajo las siguientes condiciones:
+
+1. No se permite la modificación del código, excepto en las partes específicamente señaladas en el archivo MODIFICACIONES_PERMITIDAS.md en este repositorio.
+2. No se permite la redistribución del código, ya sea en su forma original o modificada, sin el consentimiento expreso por escrito del autor.
+3. No se permite el uso comercial de este proyecto sin autorización previa.
+
+El autor de este proyecto es Juan Jose Tito Escobar, y se reserva todos los derechos sobre el código y su contenido.
+
+Este proyecto se proporciona "tal cual", sin garantías de ningún tipo, ya sean expresas o implícitas.
+
+Para solicitar permisos adicionales, contacta a juan.tito.dev@gmail.com.
+
+Esta licencia se rige e interpreta de acuerdo con las leyes de Bolivia.

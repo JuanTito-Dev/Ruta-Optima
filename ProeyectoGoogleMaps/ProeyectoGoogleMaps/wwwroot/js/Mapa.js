@@ -10,53 +10,53 @@ const MIN_DISTANCE_CHANGE = 2; // metros
 let lastProcessedPosition = null;
 
 function EnviarUbicacion() {
-    const name = "Tito";
-    const Location = { Latitud: -17.373765, Longitud: -66.136823 };
+    const name = "--";
+    const Location = { Latitud: 1, Longitud: 1 };
     connection.invoke("AgregarPasajero", name, Location);
     console.log("Ubicacion de Tito enviado");
 
-    const name2 = "Vargas";
-    const Location2 = { Latitud: -17.371729, Longitud: -66.138908 };
+    const name2 = "---";
+    const Location2 = { Latitud: 1, Longitud: 1 };
     connection.invoke("AgregarPasajero", name2, Location2);
     console.log("Ubicacion de Vargas enviado");
 
-    const nombre = "Juan Jose";
-    const Ubicacion = { Latitud: -17.373897, Longitud: -66.139547 };
+    const nombre = "----";
+    const Ubicacion = { Latitud: 1, Longitud: 1 };
     connection.invoke("AgregarPasajero", nombre, Ubicacion);
     console.log("Ubiacion de Juan enviado");
 
-    const nombre2 = "Alex";
-    const Ubicacion2 = { Latitud: -17.373712, Longitud: -66.141288 };
+    const nombre2 = "----";
+    const Ubicacion2 = { Latitud: 1, Longitud: 1 };
     connection.invoke("AgregarPasajero", nombre2, Ubicacion2);
     console.log("Ubiacion de Alex enviado");
 
-    const nombre3 = "Jhosep";
-    const Ubicacion3 = { Latitud: -17.371288, Longitud: -66.142320 };
+    const nombre3 = "---";
+    const Ubicacion3 = { Latitud: 1, Longitud: 1 };
     connection.invoke("AgregarPasajero", nombre3, Ubicacion3);
     console.log("Ubiacion de Jhosep enviado");
 
-    const nombre4 = "Miguel";
-    const Ubicacion4 = { Latitud: -17.371357, Longitud: -66.140549 };
+    const nombre4 = "----";
+    const Ubicacion4 = { Latitud: 1, Longitud: 1 };
     connection.invoke("AgregarPasajero", nombre4, Ubicacion4);
     console.log("Ubiacion de Miguel enviado");
 
-    const nombre5 = "Ivan"
-    const Ubicacion5 = { Latitud: -17.378859, Longitud: -66.165880 };
+    const nombre5 = "---"
+    const Ubicacion5 = { Latitud: 1, Longitud: 1 };
     connection.invoke("AgregarPasajero", nombre5, Ubicacion5);
     console.log("Ubiacion de Ivan enviado");
 
-    const nombre6 = "Kevin";
-    const Ubicacion6 = { Latitud: -17.382397, Longitud: -66.166199 };
+    const nombre6 = "----";
+    const Ubicacion6 = { Latitud: 1, Longitud: 1 };
     connection.invoke("AgregarPasajero", nombre6, Ubicacion6);
     console.log("Ubiacion de Kevin enviado");
 
-    const nombre7 = "Jorge";
-    const Ubicacion7 = { Latitud: -17.385810, Longitud: -66.166990 };
+    const nombre7 = "----";
+    const Ubicacion7 = { Latitud: 1, Longitud: 1 };
     connection.invoke("AgregarPasajero", nombre7, Ubicacion7);
     console.log("Ubiacion de Jorge enviado");
 
-    const nombre8 = "Luis";
-    const Ubicacion8 = { Latitud: -17.378676, Longitud: -66.163721 };
+    const nombre8 = "---";
+    const Ubicacion8 = { Latitud: 1, Longitud: 1 };
     connection.invoke("AgregarPasajero", nombre8, Ubicacion8);
     console.log("Ubiacion de Luis enviado");
 
